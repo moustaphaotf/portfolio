@@ -21,7 +21,7 @@ export default function Home() {
           transition={{ delay: 0.2 }}
           src={personal.avatar}
           alt={personal.name}
-          className="h-32 w-32 rounded-full object-cover"
+          className="h-32 w-32 md:h-64 w-64 rounded-full object-cover"
         />
         <div className="space-y-4">
           <h1 className="text-xl md:text-2xl lg:text-4xl font-bold">{personal.name}</h1>
