@@ -7,6 +7,7 @@ export const training = [
     description: "Specialized in web development, covering various technologies and frameworks including Laravel, React, AWS, and JavaScript.",
     skills: ["Web Development", "Software Engineering", "Computer Science"],
     image: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=500&h=300&fit=crop",
+    certificate: "",
   },
   {
     id: 2,
@@ -16,5 +17,6 @@ export const training = [
     description: "Intensive summer school focused on artificial intelligence and its applications.",
     skills: ["Artificial Intelligence", "Machine Learning", "Data Science"],
     image: "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=500&h=300&fit=crop",
+    certificate: "",
   },
 ];

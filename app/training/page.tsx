@@ -43,17 +43,19 @@ export default function TrainingPage() {
                     </Badge>
                   ))}
                 </div>
-                <Button variant="outline" asChild>
-                  <a
-                    href={cert.certificate}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex items-center gap-2"
-                  >
-                    View Certificate
-                    <ExternalLink className="h-4 w-4" />
-                  </a>
-                </Button>
+                {cert.certificate !== "" && (
+                  <Button variant="outline" asChild>
+                    <a
+                      href={cert.certificate}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center gap-2"
+                    >
+                      View Certificate
+                      <ExternalLink className="h-4 w-4" />
+                    </a>
+                  </Button>
+                )}
               </div>
             </Card>
           </motion.div>
